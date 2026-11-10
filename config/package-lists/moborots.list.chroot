@@ -12,7 +12,7 @@ python3-pyside6.qtcore
 python3-pyside6.qtgui
 python3-psutil
 smartmontools
-lsblk
+util-linux
 parted
 gdisk
 ntfs-3g
