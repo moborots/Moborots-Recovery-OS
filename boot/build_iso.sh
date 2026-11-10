@@ -21,11 +21,6 @@ mkdir -p config/package-lists config/includes.chroot/opt/moborots/app
 mkdir -p config/includes.chroot/etc/xdg/autostart output
 
 cp -a app/. config/includes.chroot/opt/moborots/app/
-cat > config/includes.chroot/usr-local-placeholder <<'EOF'
-This file is removed during ISO configuration.
-EOF
-rm -f config/includes.chroot/usr-local-placeholder
-
 cat > config/includes.chroot/etc/xdg/autostart/moborots.desktop <<'EOF'
 [Desktop Entry]
 Type=Application
